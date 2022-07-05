@@ -870,16 +870,15 @@ button .arrow {
   
   
   .row{
-    display: block;
+    display: flex;
   
   }
   
  
   .row .ImageCont img{
-    height: 250px;
-    width: 170px;
-    margin: 20px;
-    margin-left: 45%;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
     border-radius: 5px;
     position: inherit;
     cursor: pointer;
@@ -891,7 +890,7 @@ button .arrow {
   
   .row .ImageCont img:hover{
     box-shadow: 10px 10px 5px grey;
-    height: 275px;
+    height: 220px;
   }
   
   .row .ImageCont .description{
@@ -900,13 +899,22 @@ button .arrow {
     background-color: rgba(16, 16, 39, 0.946);
     color: #fff;
     position:absolute;
-    bottom: 20px;
-    left: 45%;
-    width: 172px; 
+    bottom: 10px;
+    left: 13.5%;
+    width: 150px; 
   
+  }
+
+  #btn{
+    font-size: xx-small;
+  }
+
+  #desc{
+    font-size: xx-small;
   }
   .videos{
     display: block;
+    margin-left: 30%;
    
   }
   
