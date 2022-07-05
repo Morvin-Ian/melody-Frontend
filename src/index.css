@@ -811,7 +811,7 @@ button .arrow {
     linear-gradient(rgba(0, 0, 0, 0.835), rgba(0, 0, 0, 0.889));
     width: 200px;
     height: 150px;
-    margin-left: 15px;
+    margin-left: 13px;
     border-radius: 10px;
 
 
@@ -834,7 +834,7 @@ button .arrow {
   .right-arrow {
     position: absolute;
     top: 50%;
-    margin-right: 15%;
+    margin-right: 14%;
     color: #fff;
     cursor: pointer;
     user-select: none;
