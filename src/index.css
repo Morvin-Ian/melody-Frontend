@@ -748,7 +748,7 @@ button .arrow {
 
 /* Mobile phones */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 450px) {
   nav ul{
     display: none;
     position: relative;
@@ -794,12 +794,12 @@ button .arrow {
 
   
   .slider{
-    display: block;
-    width: 100%;
+    display: none;
+
   }
 
   #services{
-    margin-left: 30px;
+    display: none;
   }
   .slider img{
     width: 200px;
@@ -816,8 +816,8 @@ button .arrow {
 
 
   }
-  .log{
-    margin-left: 10%;
+  .logo{
+    margin-left: 5%;
   }
   .slider h4{
 
@@ -829,10 +829,6 @@ button .arrow {
     font-size: xx-small;
     margin-left: 30%;
 
-  }
-  .first{
-
-    margin-left: 30px;
   }
   
   .right-arrow {
@@ -883,7 +879,7 @@ button .arrow {
     height: 250px;
     width: 170px;
     margin: 20px;
-    margin-left: 60%;
+    margin-left: 45%;
     border-radius: 5px;
     position: inherit;
     cursor: pointer;
@@ -905,8 +901,8 @@ button .arrow {
     color: #fff;
     position:absolute;
     bottom: 20px;
-    left: 95px;
-    width: 170px; 
+    left: 45%;
+    width: 172px; 
   
   }
   .videos{
@@ -915,9 +911,9 @@ button .arrow {
   }
   
   .videos iframe{
-    margin: 10px 70px;
+    margin: 20px;
     border-radius: 15px;
-    width: 200px;
+    width: 250px;
     height: 300px;
   }  
 
