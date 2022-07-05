@@ -14,7 +14,7 @@ const Footer = () => {
     <div className='footer' id="contacts">
        <div className='about'>
         <h3>More Information</h3>
-        <p>Talk the talka with Melody aims at transforming the lives of both Men and Women through Improving:
+        <p>Talk the talk with Melody aims at transforming the lives of both Men and Women through Improving:
             <ul>
                 <li> &gt; Mental Awareness</li>
                 <li> &gt; Financial Awareness</li>
