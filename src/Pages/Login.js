@@ -98,7 +98,7 @@ const Form = () => {
           
             <button style={submit} type="submit"> LOG IN</button> <br/>
 
-            <p style={{color:"wheat"}}>------------------or---------------------</p>
+            <p style={{color:"wheat"}}>----------------or------------------</p>
 
             <button style={fb}>< FacebookRounded/> Login with Facebook</button> <br/>
             <button style={ig}> <Instagram/> Login with Instagram</button> <br/>

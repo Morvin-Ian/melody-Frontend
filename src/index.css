@@ -752,13 +752,13 @@ button .arrow {
 @media only screen and (max-width: 450px) {
   nav ul{
     display: none;
-    position: relative;
+    position: block;
     background-color: rgba(16, 16, 39, 0.992);
-    margin-top: 30%;
+    margin-top: 25%;
     padding: 10px;
-    margin-right: 100%;
-    
-
+    font-size: small;
+    transition: ease-in-out;
+    transition-delay: 1s;
   
   }
   nav ul li {
@@ -774,19 +774,19 @@ button .arrow {
     display: none;
   }
   nav #user{
-    display: none;
+    display: absolute;
+    margin-left: 100px;
  
   }
-
-
+  
 
   #menubar {
-    display: block;
+    display: relative;
     cursor: pointer;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 7%;
     left: 75%;
+    line-height: 50px;
   }
 
 
@@ -815,7 +815,7 @@ button .arrow {
     height: 150px;
     margin-left: 13px;
     border-radius: 10px;
-
+    background-position-y: bottom;
 
   }
   .logo{
