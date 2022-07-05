@@ -988,6 +988,7 @@ button .arrow {
   display: block;
   margin: 15%;
 
+
 }
 
 .detail-cont .details {
@@ -1007,6 +1008,7 @@ button .arrow {
   background-color:rgba(16, 16, 39, 0.992);
   color: white;
   height: 100px;
+  border-radius: 2px;
 
 
 }
@@ -1018,6 +1020,7 @@ button .arrow {
 
 .detail-cont img{
   transition-delay: 0.4s; 
+  border-radius: 5px;
 }
 .detail-cont img:hover{
   box-shadow: 10px 10px 5px grey;
