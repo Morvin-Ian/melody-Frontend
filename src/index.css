@@ -834,7 +834,7 @@ button .arrow {
   .right-arrow {
     position: absolute;
     top: 50%;
-    margin-right: 10%;
+    margin-right: 15%;
     color: #fff;
     cursor: pointer;
     user-select: none;
@@ -899,7 +899,7 @@ button .arrow {
     color: #fff;
     position:absolute;
     bottom: 10px;
-    left: 15%;
+    left: 18%;
     width: 150px; 
   
   }
