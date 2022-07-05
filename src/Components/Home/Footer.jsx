@@ -29,7 +29,7 @@ const Footer = () => {
            <p>Contact us through: <br/> <br/>
                     <a href="https://www.facebook.com/cynthia.melodyke" target="_blank" rel="noreferrer"><FacebookRounded/> Facebook</a>
                     <a href="https://www.instagram.com/cynthiamelody01/" target="_blank" rel="noreferrer"><Instagram/> Instagram</a>
-                    <a href="https://twitter.com/cynthia_melody7"  target="_blank" rel="noreferrer"><TwitterIcon/> Twitter</a> <br/> <br/>
+                    <a href="https://twitter.com/cynthia_melody7"  target="_blank" rel="noreferrer"><TwitterIcon/> Twitter</a> 
                     <a  href="mailto:morvinian@gmail.com"  target="_blank" rel="noreferrer"><WhatsappOutlinedIcon/> Whatsapp</a> 
                     <a href='https://www.youtube.com/channel/UCP0i17JE3052sADPdjbfrPw' target="_blank" rel="noreferrer"><YouTubeIcon/> Youtube</a>
                     <a  href="mailto:morvinian@gmail.com"  target="_blank" rel="noreferrer"><EmailRounded/> Mail</a> 

@@ -287,10 +287,11 @@ img{
   text-align: center;
 }
 
-.social a{
+.footer .social a{
   text-decoration: none;
   color: #fff;
   padding: 10px;
+
 
 }
 
@@ -786,7 +787,7 @@ button .arrow {
     color: rgb(0, 0, 0);
     position: absolute;
     left: 75%;
-    line-height: 50px;
+  
   }
 
 
@@ -949,7 +950,7 @@ button .arrow {
 
 .social{
   display: block;
-  padding: 2px;
+  padding: 20px;
   background-color: rgba(16, 16, 39, 0.631);
   border-radius: 10px;
   margin: 20px;
@@ -964,8 +965,7 @@ button .arrow {
 }
 
 
-
-.social li, .location li, .about li{
+.location li, .about li{
   list-style: none;
   padding: 5px;
 }
@@ -980,8 +980,9 @@ button .arrow {
 .social a{
   text-decoration: none;
   color: #fff;
-  padding: 1px;
-  display: block;
+  padding: 5px;
+  margin-top: 10px;
+  display: inline;
 
 }
 
