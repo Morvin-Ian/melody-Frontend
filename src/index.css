@@ -837,7 +837,7 @@ button .arrow {
   .right-arrow {
     position: absolute;
     top: 50%;
-    margin-right: 14%;
+    margin-right: 13%;
     color: #fff;
     cursor: pointer;
     user-select: none;
