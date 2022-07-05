@@ -834,7 +834,7 @@ button .arrow {
   .right-arrow {
     position: absolute;
     top: 50%;
-    margin-right: 1%;
+    margin-right: 10%;
     color: #fff;
     cursor: pointer;
     user-select: none;
@@ -895,12 +895,11 @@ button .arrow {
   
   .row .ImageCont .description{
   
-  
     background-color: rgba(16, 16, 39, 0.946);
     color: #fff;
     position:absolute;
     bottom: 10px;
-    left: 12%;
+    left: 15%;
     width: 150px; 
   
   }
