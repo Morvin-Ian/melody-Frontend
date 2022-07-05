@@ -41,7 +41,7 @@ const ProductDetail = () => {
        <h3 style={{textAlign:"center"}}>{product.product_name}</h3>
         <div  className='detail-cont'>
            
-            <img  src={`http://127.0.0.1:8000${product.image}`} width="500" height="400"/>
+            <img  src={`https://melody-talk.herokuapp.com${product.image}`} width="500" height="400"/>
            <div  className="details">
                 <p>Ratings - <Star/> <Star/> <Star/> <Star/></p>
                 <p>Stock - {product.stock}</p>
