@@ -808,7 +808,7 @@ button .arrow {
   }
   .slide-cont .description{
     background: url('./Images/logoo.png'), 
-    linear-gradient(rgba(0, 0, 0, 0.835), rgba(0, 0, 0, 0.889));
+    linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.487));
     width: 200px;
     height: 150px;
     margin-left: 13px;
