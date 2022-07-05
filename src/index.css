@@ -756,6 +756,7 @@ button .arrow {
     margin-top: 30%;
     padding: 10px;
     margin-right: 100%;
+    
 
   
   }
@@ -904,6 +905,14 @@ button .arrow {
   
   }
 
+ #p{
+
+  font-size: x-small;
+  margin-top: 1px;
+
+
+  }
+
   #btn{
     font-size: xx-small;
   }
@@ -966,24 +975,26 @@ button .arrow {
 }
 
 .detail-cont img{
-  height: 300px;
+  height: 200px;
   width: 100%;
-  transition: none;
+  
+ 
 }
 
 .detail-cont {
-  padding:20px;
+  padding:10px;
   border-radius: 5px;
   cursor: pointer;
   display: block;
-  margin: 10%;
- 
+  margin: 15%;
+
 }
 
 .detail-cont .details {
   background-color:rgba(16, 16, 39, 0.992);
   color: white;
-  height: 100%;
+  font-size: xx-small;
+  height: 150px;
 
 }
 
@@ -992,8 +1003,30 @@ button .arrow {
   margin-left: 33%;
   margin-bottom:30px ;
 }
+.detail-cont .details {
+  background-color:rgba(16, 16, 39, 0.992);
+  color: white;
+  height: 100px;
+
 
 }
+
+.detail-cont .details p{
+  padding: 2px;
+  margin: 2px;
+}
+
+.detail-cont img{
+  transition-delay: 0.4s; 
+}
+.detail-cont img:hover{
+  box-shadow: 10px 10px 5px grey;
+  height: 210px;
+}
+
+
+}
+
 
 
 
