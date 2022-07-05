@@ -489,6 +489,7 @@ button .arrow {
 }
 
 
+
 /* End  of corousel */
 
 
@@ -942,35 +943,45 @@ button .arrow {
   bottom: 0;
   padding: 10px;
   font-size: small;
+  font-size: x-small;
 
 }
 
 .social{
   display: block;
+  padding: 2px;
+  background-color: rgba(16, 16, 39, 0.631);
+  border-radius: 10px;
+  margin: 20px;
 }
 
-.social, .location, .about{
+
+.location, .about{
   padding: 20px;
   background-color: rgba(16, 16, 39, 0.631);
   border-radius: 10px;
   margin: 20px;
 }
 
+
+
 .social li, .location li, .about li{
   list-style: none;
   padding: 5px;
 }
 
+
 .social h3, .location h3, .about h3{
   padding-bottom: 10px;
   text-align: center;
+  font-size: small;
 }
 
 .social a{
   text-decoration: none;
   color: #fff;
-  padding: 5px;
-  display: flex;
+  padding: 1px;
+  display: block;
 
 }
 
