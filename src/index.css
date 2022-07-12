@@ -21,13 +21,13 @@ nav ul{
   flex-basis: 50%;
   margin-top: 20px;
   margin-left: 10%;
-  
+
 }
 nav p{
   margin-top: 30px;
   font-weight: bold;
   text-align: center;
-  
+
 }
 nav img{
   margin-left: 40%;
@@ -44,7 +44,7 @@ nav li a{
   transition: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0.3s;
-  
+
 }
 
 nav li a:hover{
@@ -57,7 +57,7 @@ nav li a:hover{
   transition-delay: 0.3s;
   text-align: center;
   font-size: small;
-  
+
 }
 
 nav #user{
@@ -188,6 +188,19 @@ img{
   transform: scale(1.08);
 }
 
+.slide .description {
+  opacity: 0;
+  transition-duration: 1s ease;
+  transition-delay: 0.5s;
+
+}
+
+.slide.active .description{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
 /* End of services offered */
 
 /* Start of products on sale */
@@ -242,7 +255,7 @@ img{
 }
 
 
-/* Start  of relevant talks */ 
+/* Start  of relevant talks */
 .videos{
   display: flex;
   justify-content: center;
@@ -256,7 +269,7 @@ img{
 }
 
 
-/* End  of relevant talks */ 
+/* End  of relevant talks */
 
 
 /* start of Footer */
@@ -310,7 +323,7 @@ img{
   display:flex;
   align-items:center;
   justify-content:center;
- 
+
 }
 
 .detail-cont .details {
@@ -509,7 +522,7 @@ button .arrow {
     border-radius: 5px;
     transition-delay: 1s;
     transition: ease-in-out;
-  
+
   }
   nav ul li {
     display: block;
@@ -527,7 +540,7 @@ button .arrow {
     position: absolute;
     margin-left: 40%;
     top: 77%;
- 
+
   }
 
   #user .user{
@@ -535,7 +548,7 @@ button .arrow {
 
   }
 
-  
+
   #menubar {
     display: block;
     cursor: pointer;
@@ -550,16 +563,16 @@ button .arrow {
 }
 .slider {
     position: relative;
-    padding: 5%;  
+    padding: 5%;
   }
-  
+
   .image{
     width: 450px;
     height: 200px;
     border-radius: 10px;
- 
+
   }
-  
+
   .slide-cont .description{
     margin-left: 70%;
     background-color: rgb(16, 16, 39);
@@ -568,8 +581,8 @@ button .arrow {
     position: absolute;
     width: 27%;
     height: 100%;
-   
-   
+
+
   }
   .slider h4{
     margin-top: 20%;
@@ -581,7 +594,7 @@ button .arrow {
     padding: 10px;
 
   }
-  
+
   .right-arrow {
     position: absolute;
     top: 50%;
@@ -609,21 +622,21 @@ button .arrow {
     border-radius: 50%;
     padding: 5px;
   }
-  
+
   .slide {
     opacity: 0;
     transition-duration: 1s ease;
     transition-delay: 0.5s;
-  
+
   }
-  
+
   .slide.active {
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
   }
-  
-  
+
+
   .first-title{
     text-align: center;
     text-decoration: underline;
@@ -637,12 +650,12 @@ button .arrow {
     align-items: center;
 
   }
-  
+
   .row .ImageCont{
     height: 80%;
     position: relative;
     width: 50%;
-  
+
   }
   .row .ImageCont img{
     height: 300px;
@@ -653,16 +666,16 @@ button .arrow {
     cursor: pointer;
     transition: height 0.5s;
     transition-delay: 0.4s;
-  
+
   }
-  
+
   .row .ImageCont img:hover{
     box-shadow: 10px 10px 5px grey;
     height: 275px;
   }
-  
+
   .row .ImageCont .description{
-  
+
     background-color: rgba(16, 16, 39, 0.946);
     color: #fff;
     padding: 5px;
@@ -670,19 +683,19 @@ button .arrow {
     bottom: 25px;
     left: 32px;
     width: 280px;
-  
+
   }
   .videos{
     display: block;
-   
+
   }
-  
+
   .videos iframe{
     margin: 35px;
     border-radius: 15px;
     width: 250px;
     height: 300px;
-  }  
+  }
 
 
 .footer{
@@ -722,7 +735,7 @@ button .arrow {
   display:flex;
   align-items:center;
   justify-content:center;
- 
+
 }
 
 .detail-cont .details {
@@ -761,7 +774,7 @@ button .arrow {
     font-size: small;
     transition: ease-in-out;
     transition-delay: 1s;
-  
+
   }
   nav ul li {
     display: block;
@@ -778,9 +791,9 @@ button .arrow {
   nav #user{
     display: absolute;
     margin-left: 100px;
- 
+
   }
-  
+
 
   #menubar {
     display: relative;
@@ -788,7 +801,7 @@ button .arrow {
     color: rgb(0, 0, 0);
     position: absolute;
     left: 75%;
-  
+
   }
 
 
@@ -796,7 +809,7 @@ button .arrow {
     display: none;
   }
 
-  
+
   .slider{
     display: block;
 
@@ -811,7 +824,7 @@ button .arrow {
 
   }
   .slide-cont .description{
-    background: url('./Images/logoo.png'), 
+    background: url('./Images/logoo.png'),
     linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.487));
     width: 200px;
     height: 150px;
@@ -834,7 +847,7 @@ button .arrow {
     margin-left: 30%;
 
   }
-  
+
   .right-arrow {
     position: absolute;
     top: 50%;
@@ -844,7 +857,7 @@ button .arrow {
     user-select: none;
     background-color: rgb(16, 16, 39);
     border-radius: 50%;
-  
+
   }
 
   .left-arrow {
@@ -858,27 +871,27 @@ button .arrow {
     background-color: rgba(16, 16, 39, 0.946);
     border-radius: 50%;
   }
-  
+
   .slide {
     opacity: 0;
     transition-duration: 1s ease;
     transition-delay: 0.5s;
-  
+
   }
-  
+
   .slide.active {
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
   }
-  
-  
+
+
   .row{
     display: flex;
-  
+
   }
-  
- 
+
+
   .row .ImageCont img{
     height: 200px;
     width: 150px;
@@ -888,24 +901,24 @@ button .arrow {
     cursor: pointer;
     transition: height 0.5s;
     transition-delay: 0.4s;
-  
-  
+
+
   }
-  
+
   .row .ImageCont img:hover{
     box-shadow: 10px 10px 5px grey;
     height: 220px;
   }
-  
+
   .row .ImageCont .description{
-  
+
     background-color: rgba(16, 16, 39, 0.946);
     color: #fff;
     position:absolute;
     bottom: 10px;
     left: 12%;
-    width: 150px; 
-  
+    width: 150px;
+
   }
 
  #p{
@@ -926,15 +939,15 @@ button .arrow {
   .videos{
     display: block;
     margin-left: 10%;
-   
+
   }
-  
+
   .videos iframe{
     margin: 20px;
     border-radius: 15px;
     width: 250px;
     height: 300px;
-  }  
+  }
 
 
 .footer{
@@ -989,8 +1002,8 @@ button .arrow {
 .detail-cont img{
   height: 200px;
   width: 100%;
-  
- 
+
+
 }
 
 .detail-cont {
@@ -1031,7 +1044,7 @@ button .arrow {
 }
 
 .detail-cont img{
-  transition-delay: 0.4s; 
+  transition-delay: 0.4s;
   border-radius: 5px;
 }
 .detail-cont img:hover{
@@ -1041,7 +1054,3 @@ button .arrow {
 
 
 }
-
-
-
-

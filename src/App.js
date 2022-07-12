@@ -11,13 +11,11 @@ import ProductDetail from "./Pages/ProductDetail";
 
 
 
-
-
 function App() {
 
   const Aproducts = axios.create ({
     baseURL:"https://melody-talk.herokuapp.com"
-    
+
   })  
 
   const [products, setProducts] = useState([]);
@@ -30,19 +28,19 @@ function App() {
 
       }
       catch(err){
-        console.log(err.message)      
+        console.log(err.message)
     }
     }
     fetchProducts();
-  },[])  
+  },[])
 
 
   return (
     <Router className="App">
       <Routes>
-            <Route path="/" element={<Home products={products} />}/> 
-            <Route path="/log-in" element={<Login/>}/> 
-            <Route path="/product/:id" element={<ProductDetail/>}/> 
+            <Route path="/" element={<Home products={products} />}/>
+            <Route path="/log-in" element={<Login/>}/>
+            <Route path="/product/:id" element={<ProductDetail/>}/>
       </Routes>
     </Router>
   );

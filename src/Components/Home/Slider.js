@@ -8,10 +8,9 @@ import { Button } from '@mui/material';
 
 import { SliderData } from './SliderData';
 import { useState } from 'react';
-import { ArrowBackIos, ArrowForwardIos  } from '@mui/icons-material';
+import { ArrowBackIos, ArrowForwardIos  } from '@mui/icons-material'
 
 
-   
 
 const Slider = ({slides}) => {
     const [current,setCurrent]=useState(0);
@@ -28,7 +27,7 @@ const Slider = ({slides}) => {
 
     <div className='cont'>
 
-    
+
     <div className='icons'>
            <ul>
                    <li> <a href="https://www.facebook.com/cynthia.melodyke" target="_blank" rel="noreferrer"><FacebookRounded/></a> </li>
@@ -37,15 +36,15 @@ const Slider = ({slides}) => {
                    <li> <a  href="mailto:morvinian@gmail.com"  target="_blank" rel="noreferrer"><EmailRounded/></a></li>
                    <li> <a href='https://www.youtube.com/channel/UCP0i17JE3052sADPdjbfrPw' target="_blank" rel="noreferrer"><YouTubeIcon/></a></li>
            </ul>
-    </div>      
+    </div>
 
 
         <div className='slider'>
-   
+
             <ArrowBackIos onClick={nextSlide} className="left-arrow" />
-            <ArrowForwardIos onClick={prevSlide} className="right-arrow"/>
-     
-                    
+            <ArrowForwardIos onClick={nextSlide} className="right-arrow"/>
+
+
                 {SliderData.map((slide,index)=>{
 
                      return(
@@ -62,19 +61,19 @@ const Slider = ({slides}) => {
                         </div>
                         </div>
 
-            
+
 
                         </div>
-                      
-                       
-                        )                                
+
+
+                        )
                 })}
-           
+
         </div>
 
     </div>
 
 
 )}
-  
+
 export default Slider;
